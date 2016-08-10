@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-08-10T22:43:12.968+02:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/myproject/templates/mypage-home"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="home"
+        sling:resourceType="myproject/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/structure/logo"/>
+        <title
+            jcr:lastModified="{Date}2016-08-10T22:43:12.966+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="MY home"
+            sling:resourceType="myproject/components/content/title"
+            type="h3"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myproject/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myproject/components/content/text"
+                text="&lt;p>This is a home page&lt;/p>"
+                textIsRich="true"/>
+            <colctrl
+                jcr:created="{Date}2016-08-10T22:42:25.100+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-08-10T22:42:25.100+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <text_1346500979
+                jcr:created="{Date}2016-08-10T22:40:39.663+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-08-10T22:40:52.015+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>case #1&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_break14708617451010
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <text_522415366
+                jcr:created="{Date}2016-08-10T22:40:28.495+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-08-10T22:41:03.003+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Case #2&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <col_end14708617451011
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+        </par>
+    </jcr:content>
+</jcr:root>
