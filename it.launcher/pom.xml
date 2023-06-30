@@ -64,13 +64,13 @@
         <keepJarRunning>false</keepJarRunning>
         
         <!-- Set this to run tests against a specific hostname, if test.server.url is not set-->
-        <test.server.hostname />
+        <test.server.hostname/>
 
         <!-- Set this to use a different username for remote execution of sling junit tests -->
-        <test.server.username />
+        <test.server.username/>
 
         <!-- Set this to use a different password for remote execution of sling junit tests -->
-        <test.server.password />
+        <test.server.password/>
         
         <!-- Options for the VM that executes our runnable jar -->
         <jar.executor.vm.options>-Xmx512m</jar.executor.vm.options>
@@ -79,7 +79,7 @@
         <sling.testing.timeout.multiplier>1.0</sling.testing.timeout.multiplier>
         
         <!-- Set this to run the executable jar in a specified filesystem folder -->
-        <jar.executor.work.folder />
+        <jar.executor.work.folder/>
         
         <!-- Options for the jar to execute. $JAREXEC_SERVER_PORT$ is replaced by the
             selected port number -->
@@ -281,7 +281,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient-osgi</artifactId>
-            <version>4.1.2</version>
+            <version>4.5.14</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
